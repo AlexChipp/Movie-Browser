@@ -1,0 +1,46 @@
+# Miscellaneous
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+coverage/
+**/doc/api/
+
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.framework
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/captures/
+**/android/app/*.keystore
+**/android/app/*.jks
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json

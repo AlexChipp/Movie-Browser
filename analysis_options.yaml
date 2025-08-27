@@ -1,0 +1,15 @@
+analyzer:
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_declarations: true
+    prefer_const_constructors: true
+    always_use_package_imports: true # Используй package-импорты вместо относительных
+    avoid_classes_with_only_static_members: true # Запрещает классы с только статическими методами
+    avoid_unnecessary_containers: true # Убирает ненужные Container
+    prefer_relative_imports: false # Разрешает package-импорты
+    public_member_api_docs: true # Требует документацию для публичных методов и классов
+    sort_constructors_first: true # Размещает конструкторы в начале класса
+    avoid_redundant_argument_values: true # Избегай ненужных аргументов, если они равны значениям по умолчанию
